@@ -1,0 +1,19 @@
+
+There was an error on website: Uncaught Error
+Error: Class "CPSW\Gateway\Stripe\Frontend_Scripts" not found in C:\xampp\htdocs\wp-content\plugins\checkout-plugins-stripe-woo\autoloader.php:145
+Stack trace:
+#0 C:\xampp\htdocs\wp-includes\class-wp-hook.php(324): CPSW\CPSW_Loader->frontend_scripts('')
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp-content\plugins\woocommerce\includes\class-woocommerce.php(859): do_action('woocommerce_ini...')
+#4 C:\xampp\htdocs\wp-includes\class-wp-hook.php(324): WooCommerce->init('')
+#5 C:\xampp\htdocs\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wp-settings.php(704): do_action('init')
+#8 C:\xampp\htdocs\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+{"post_title":"Response XML","post_mime_type":"application\/xml","post_content":"","post_status":"inherit"}
+"C:\\xampp\\htdocs\/wp-content\/uploads\/2024\/12\/wxr.xml"
+5536
